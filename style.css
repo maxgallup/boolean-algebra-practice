@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    color: rgb(231, 231, 207);
+    font-family: monospace;
+    font-size: 1.8rem;
+}
+
+div {
+    margin: 5vh 5vw;
+    text-align: center;
+}
+
+div p {
+    overflow: auto;
+}
+
+#inputText {
+    padding: 2vh 2vw;
+    background-color: grey;
+    border-radius: 5px;
+    color: rgb(231, 231, 207);
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+#difficulty {
+    background-color: grey;
+    font-size: 1.5rem;
+    color: rgb(231, 231, 207);
+    font-family: monospace;
+}
+
+button {
+    background-color: grey;
+    font-size: 1.5rem;
+    color: rgb(231, 231, 207);
+    font-family: monospace;
+    border-style: outset;
+    border-width: 0.2rem;
+    padding: 1vh 1vw;
+}
+
+button:hover {
+    cursor: pointer;
+    border-width: 0.2rem;
+    border-color: rgb(240, 245, 174);
+}
+
+#responseText {
+    color: black;
+}
+
+.correctGreen {
+    color: green;
+}
+
+.wrongRed {
+    color: red;
+}
+
